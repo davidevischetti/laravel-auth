@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
+<a href="{{url()->previous()}}" class="btn btn-info mb-3 ms-3">Back</a>
+
 <table class="table container">
     <thead class="table-dark">
     <tr>
